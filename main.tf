@@ -1,5 +1,5 @@
 module "windowsvm" {
-  source                = "app.terraform.io/Motiva-ServiceNow/windowsvm/azure"
+  source                = "app.terraform.io/motiva-test-org/windowsvm/azure"
   version               = "1.0.0"
   resourceGroup         = var.resourceGroup
   vmName                = var.vmName
